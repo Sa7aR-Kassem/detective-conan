@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap Exercise</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.jpeg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#header"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#info">Info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#popular">Popular</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#news">News</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header id="header" class="vh-100 bg-light d-flex align-items-center">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-5 col-sm-6">
+            <h1>Detective Conan</h1>
+            <p class="lead">
+              The truth must be a great success in our eyes or be hidden behind
+              appearances of deception!
+            </p>
+
+            <div class="d-flex align-items-center">
+              <a href="#" class="btn btn-danger custom-btn-danger me-4">
+                Get Starting
+              </a>
+              <a class="btn d-flex align-items-center btn-primary-shadow">
+                <span
+                  class="position-relative d-flex justify-content-center align-items-center rounded-circle me-3">
+                  <i class="fa-solid fa-circle text-primary fa-2x"></i>
+                  <i
+                    class="fa-solid fa-play text-white position-absolute start-50 translate-middle-x"></i>
+                </span>
+                <span class="text-black"> Watch Video</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-5 col-sm-6 position-relative">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill="#e50f41"
+                d="M47.4,-74.9C59.5,-65.9,66,-49.5,70.1,-34C74.2,-18.4,75.9,-3.6,75.7,12.3C75.6,28.1,73.6,45.1,65.4,59.1C57.1,73,42.4,83.8,26.2,88.2C9.9,92.5,-8,90.4,-24.4,84.8C-40.9,79.3,-55.8,70.3,-66.7,57.8C-77.5,45.2,-84.3,29.2,-87,12.3C-89.7,-4.5,-88.3,-22.1,-80.6,-36C-73,-49.9,-59.1,-60.1,-44.6,-68C-30.1,-75.8,-15.1,-81.3,1.3,-83.3C17.6,-85.3,35.3,-83.8,47.4,-74.9Z"
+                transform="translate(100 100)" />
+            </svg>
+            <img
+              class="img-fluid position-absolute bottom-0 start-50 translate-middle-x"
+              src="./images/PngItem_4021982.png"
+              alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="info" class="info py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-sm-6">
+              <div
+                class="bg-warning bg-opacity-25 d-flex align-content-center rounded-3 p-4">
+                <i class="fa-solid fa-tv fa-3x text-warning me-3"></i>
+                <div>
+                  <h3 class="mb-0 h5 fw-bold">+1K</h3>
+                  <p class="mb-0">ِEpisode</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div
+                class="bg-secondary bg-opacity-25 d-flex align-content-center rounded-3 p-4">
+                <i class="fa-solid fa-film fa-3x text-secondary me-3"></i>
+                <div>
+                  <h3 class="mb-0 h5 fw-bold">28</h3>
+                  <p class="mb-0">Movie</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div
+                class="bg-danger bg-opacity-25 d-flex align-content-center rounded-3 p-4">
+                <i class="fa-solid fa-newspaper fa-3x text-danger me-3"></i>
+                <div>
+                  <h3 class="mb-0 h5 fw-bold">+1K</h3>
+                  <p class="mb-0">Manga</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div
+                class="bg-info bg-opacity-25 d-flex align-content-center rounded-3 p-4">
+                <i class="fa-solid fa-user fa-3x text-info me-3"></i>
+                <div>
+                  <h3 class="mb-0 h5 fw-bold">25</h3>
+                  <p class="mb-0">Characters</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="popular" class="popular py-5">
+        <div class="container">
+          <header class="popular-header text-center w-75 mx-auto">
+            <h2 class="fs-1 mb-0">Most Popular</h2>
+            <p class="lead fs-6">
+              Choose from hundreds of movies and episodes from the best anime
+              ever <i class="fa-regular fa-heart"></i>
+            </p>
+          </header>
+
+          <ul
+            class="nav nav-pills mb-3 justify-content-center bg-primary bg-opacity-25 p-3 rounded-3"
+            id="pills-tab"
+            role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="movies-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#movies"
+                type="button"
+                role="tab"
+                aria-controls="movies"
+                aria-selected="false">
+                Movies
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="tv-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#tv"
+                type="button"
+                role="tab"
+                aria-controls="tv"
+                aria-selected="true">
+                TV
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="manga-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#manga"
+                type="button"
+                role="tab"
+                aria-controls="manga"
+                aria-selected="false">
+                Manga
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="movies"
+              role="tabpanel"
+              aria-labelledby="movies-tab"
+              tabindex="0">
+              <div class="row gy-4">
+                <div class="col-lg-3">
+                  <div class="card border-0">
+                    <img
+                      src="./images/movie-1.jpeg"
+                      class="card-img-top"
+                      alt="..." />
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between mb-2">
+                        <span
+                          class="badge bg-success bg-opacity-10 text-success fw-light"
+                          >Completed</span
+                        >
+                        <i class="fa-solid fa-heart text-danger"></i>
+                      </div>
+                      <h5 class="card-title">
+                        <a href="#" class="text-decoration-none text-black"
+                          >Meitantei Conan: Haibara Ai Monogatari - Kurogane no
+                          Mystery Train
+                        </a>
+                      </h5>
+                      <p class="card-text">
+                        The film highlights the story of Ai Haibara and her past
+                        while reconstructing the story of the mysterious train.
+                      </p>
+                      <div
+                        class="card-footer bg-white px-0 d-flex justify-content-between">
+                        <div>
+                          <i class="me-2 fa-regular fa-clock text-danger"></i>
+                          <span class="fw-light">1hr 30m</span>
+                        </div>
+                        <div>
+                          <i
+                            class="me-2 fa-regular fa-calendar-days text-orange"></i>
+                          <span class="fw-light">Winner 2023</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card border-0">
+                    <img
+                      src="./images/movie-2.jpeg"
+                      class="card-img-top"
+                      alt="..." />
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between mb-2">
+                        <span
+                          class="badge bg-success bg-opacity-10 text-success fw-light"
+                          >Completed</span
+                        >
+                        <i class="fa-regular fa-heart text-danger"></i>
+                      </div>
+                      <h5 class="card-title">
+                        <a href="#" class="text-decoration-none text-black"
+                          >Detective Conan Movie 25: Halloween no Hanayome
+                        </a>
+                      </h5>
+                      <p class="card-text">
+                        Takagi is protecting Miwako and at the same time the
+                        serial bombing criminal from the incident that happened
+                        three years ago that killed Matsuda whom was in love
+                        with.
+                      </p>
+                      <div
+                        class="card-footer bg-white px-0 d-flex justify-content-between">
+                        <div>
+                          <i class="me-2 fa-regular fa-clock text-danger"></i>
+                          <span class="fw-light">1hr 30m</span>
+                        </div>
+                        <div>
+                          <i
+                            class="me-2 fa-regular fa-calendar-days text-orange"></i>
+                          <span class="fw-light">Winner 2023</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card border-0">
+                    <img
+                      src="./images/movie-3.png"
+                      class="card-img-top"
+                      alt="..." />
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between mb-2">
+                        <span
+                          class="badge bg-danger bg-opacity-10 text-danger fw-light"
+                          >Now</span
+                        >
+                        <i class="fa-solid fa-heart text-danger"></i>
+                      </div>
+                      <h5 class="card-title">
+                        <a href="#" class="text-decoration-none text-black"
+                          >Detective Conan Movie 24: The Scarlet Bullet
+                        </a>
+                      </h5>
+                      <p class="card-text">
+                        A strange incident occurs during a party held by major
+                        celebrity sponsors. Conan concludes that there is a
+                        possible link between it and the serial kidnapping 15
+                        years ago.
+                      </p>
+                      <div
+                        class="card-footer bg-white px-0 d-flex justify-content-between">
+                        <div>
+                          <i class="me-2 fa-regular fa-clock text-danger"></i>
+                          <span class="fw-light">1hr 30m</span>
+                        </div>
+                        <div>
+                          <i
+                            class="me-2 fa-regular fa-calendar-days text-orange"></i>
+                          <span class="fw-light">Winner 2023</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card border-0">
+                    <img
+                      src="./images/movie-1.jpeg"
+                      class="card-img-top"
+                      alt="..." />
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between mb-2">
+                        <span
+                          class="badge bg-info bg-opacity-10 text-info fw-light"
+                          >Waiting</span
+                        >
+                        <i class="fa-solid fa-heart text-danger"></i>
+                      </div>
+                      <h5 class="card-title">
+                        <a href="#" class="text-decoration-none text-black"
+                          >Meitantei Conan: Haibara Ai Monogatari - Kurogane no
+                          Mystery Train
+                        </a>
+                      </h5>
+                      <p class="card-text">
+                        The film highlights the story of Ai Haibara and her past
+                        while reconstructing the story of the mysterious train.
+                      </p>
+                      <div
+                        class="card-footer bg-white px-0 d-flex justify-content-between">
+                        <div>
+                          <i class="me-2 fa-regular fa-clock text-danger"></i>
+                          <span class="fw-light">1hr 30m</span>
+                        </div>
+                        <div>
+                          <i
+                            class="me-2 fa-regular fa-calendar-days text-orange"></i>
+                          <span class="fw-light">Winner 2023</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card border-0">
+                    <img
+                      src="./images/movie-2.jpeg"
+                      class="card-img-top"
+                      alt="..." />
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between mb-2">
+                        <span
+                          class="badge bg-info bg-opacity-10 text-info fw-light"
+                          >Waiting</span
+                        >
+                        <i class="fa-regular fa-heart text-danger"></i>
+                      </div>
+                      <h5 class="card-title">
+                        <a href="#" class="text-decoration-none text-black"
+                          >Detective Conan Movie 25: Halloween no Hanayome
+                        </a>
+                      </h5>
+                      <p class="card-text">
+                        Takagi is protecting Miwako and at the same time the
+                        serial bombing criminal from the incident that happened
+                        three years ago that killed Matsuda whom was in love
+                        with.
+                      </p>
+                      <div
+                        class="card-footer bg-white px-0 d-flex justify-content-between">
+                        <div>
+                          <i class="me-2 fa-regular fa-clock text-danger"></i>
+                          <span class="fw-light">1hr 30m</span>
+                        </div>
+                        <div>
+                          <i
+                            class="me-2 fa-regular fa-calendar-days text-orange"></i>
+                          <span class="fw-light">Winner 2023</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card border-0">
+                    <img
+                      src="./images/movie-3.png"
+                      class="card-img-top"
+                      alt="..." />
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between mb-2">
+                        <span
+                          class="badge bg-info bg-opacity-10 text-info fw-light"
+                          >Waiting</span
+                        >
+                        <i class="fa-solid fa-heart text-danger"></i>
+                      </div>
+                      <h5 class="card-title">
+                        <a href="#" class="text-decoration-none text-black"
+                          >Detective Conan Movie 24: The Scarlet Bullet
+                        </a>
+                      </h5>
+                      <p class="card-text">
+                        A strange incident occurs during a party held by major
+                        celebrity sponsors. Conan concludes that there is a
+                        possible link between it and the serial kidnapping 15
+                        years ago.
+                      </p>
+                      <div
+                        class="card-footer bg-white px-0 d-flex justify-content-between">
+                        <div>
+                          <i class="me-2 fa-regular fa-clock text-danger"></i>
+                          <span class="fw-light">1hr 30m</span>
+                        </div>
+                        <div>
+                          <i
+                            class="me-2 fa-regular fa-calendar-days text-orange"></i>
+                          <span class="fw-light">Winner 2023</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="tv"
+              role="tabpanel"
+              aria-labelledby="tv-tab"
+              tabindex="0">
+              <div class="row gy-4">
+                <div class="col-lg-3">
+                  <div class="card border-0">
+                    <img
+                      src="./images/Detective-Conan-EP-400x243.jpeg"
+                      class="card-img-top"
+                      alt="..." />
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between mb-2">
+                        <span
+                          class="badge bg-danger bg-opacity-10 text-danger fw-light"
+                          >Now</span
+                        >
+                        <i class="fa-solid fa-heart text-danger"></i>
+                      </div>
+                      <h5 class="card-title">
+                        <a href="#" class="text-decoration-none text-black"
+                          >Detective Conan S1 EP1
+                        </a>
+                      </h5>
+                      <p class="card-text">
+                        The son of a world famous mystery writer, Shinichi Kudo,
+                        has achieved his own notoriety by assisting the local
+                        police as a student detective. He has always been able
+                        to solve the most difficult of criminal cases using his
+                        wits and power of reason.
+                      </p>
+                      <div
+                        class="card-footer bg-white px-0 d-flex justify-content-between">
+                        <div>
+                          <i class="me-2 fa-regular fa-clock text-danger"></i>
+                          <span class="fw-light">30m</span>
+                        </div>
+                        <div>
+                          <i
+                            class="me-2 fa-regular fa-calendar-days text-orange"></i>
+                          <span class="fw-light">Winner 1996 </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card border-0">
+                    <img
+                      src="./images/Detective-Conan-EP-400x243.jpeg"
+                      class="card-img-top"
+                      alt="..." />
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between mb-2">
+                        <span
+                          class="badge bg-danger bg-opacity-10 text-danger fw-light"
+                          >Now</span
+                        >
+                        <i class="fa-regular fa-heart text-danger"></i>
+                      </div>
+                      <h5 class="card-title">
+                        <a href="#" class="text-decoration-none text-black"
+                          >Detective Conan S1 EP2
+                        </a>
+                      </h5>
+                      <p class="card-text">
+                        The son of a world famous mystery writer, Shinichi Kudo,
+                        has achieved his own notoriety by assisting the local
+                        police as a student detective. He has always been able
+                        to solve the most difficult of criminal cases using his
+                        wits and power of reason.
+                      </p>
+                      <div
+                        class="card-footer bg-white px-0 d-flex justify-content-between">
+                        <div>
+                          <i class="me-2 fa-regular fa-clock text-danger"></i>
+                          <span class="fw-light">30m</span>
+                        </div>
+                        <div>
+                          <i
+                            class="me-2 fa-regular fa-calendar-days text-orange"></i>
+                          <span class="fw-light">Winner 1996 </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card border-0">
+                    <img
+                      src="./images/Detective-Conan-EP-400x243.jpeg"
+                      class="card-img-top"
+                      alt="..." />
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between mb-2">
+                        <span
+                          class="badge bg-success bg-opacity-10 text-success fw-light"
+                          >Completed</span
+                        >
+                        <i class="fa-solid fa-heart text-danger"></i>
+                      </div>
+                      <h5 class="card-title">
+                        <a href="#" class="text-decoration-none text-black"
+                          >Detective Conan S1 EP3
+                        </a>
+                      </h5>
+                      <p class="card-text">
+                        The son of a world famous mystery writer, Shinichi Kudo,
+                        has achieved his own notoriety by assisting the local
+                        police as a student detective. He has always been able
+                        to solve the most difficult of criminal cases using his
+                        wits and power of reason.
+                      </p>
+                      <div
+                        class="card-footer bg-white px-0 d-flex justify-content-between">
+                        <div>
+                          <i class="me-2 fa-regular fa-clock text-danger"></i>
+                          <span class="fw-light">30m</span>
+                        </div>
+                        <div>
+                          <i
+                            class="me-2 fa-regular fa-calendar-days text-orange"></i>
+                          <span class="fw-light">Winner 1996 </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card border-0">
+                    <img
+                      src="./images/Detective-Conan-EP-400x243.jpeg"
+                      class="card-img-top"
+                      alt="..." />
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between mb-2">
+                        <span
+                          class="badge bg-success bg-opacity-10 text-success fw-light"
+                          >Completed</span
+                        >
+                        <i class="fa-solid fa-heart text-danger"></i>
+                      </div>
+                      <h5 class="card-title">
+                        <a href="#" class="text-decoration-none text-black"
+                          >Detective Conan S1 EP1
+                        </a>
+                      </h5>
+                      <p class="card-text">
+                        The son of a world famous mystery writer, Shinichi Kudo,
+                        has achieved his own notoriety by assisting the local
+                        police as a student detective. He has always been able
+                        to solve the most difficult of criminal cases using his
+                        wits and power of reason.
+                      </p>
+                      <div
+                        class="card-footer bg-white px-0 d-flex justify-content-between">
+                        <div>
+                          <i class="me-2 fa-regular fa-clock text-danger"></i>
+                          <span class="fw-light">30m</span>
+                        </div>
+                        <div>
+                          <i
+                            class="me-2 fa-regular fa-calendar-days text-orange"></i>
+                          <span class="fw-light">Winner 1996 </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card border-0">
+                    <img
+                      src="./images/Detective-Conan-EP-400x243.jpeg"
+                      class="card-img-top"
+                      alt="..." />
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between mb-2">
+                        <span
+                          class="badge bg-success bg-opacity-10 text-success fw-light"
+                          >Completed</span
+                        >
+                        <i class="fa-regular fa-heart text-danger"></i>
+                      </div>
+                      <h5 class="card-title">
+                        <a href="#" class="text-decoration-none text-black"
+                          >Detective Conan S1 EP1
+                        </a>
+                      </h5>
+                      <p class="card-text">
+                        The son of a world famous mystery writer, Shinichi Kudo,
+                        has achieved his own notoriety by assisting the local
+                        police as a student detective. He has always been able
+                        to solve the most difficult of criminal cases using his
+                        wits and power of reason.
+                      </p>
+                      <div
+                        class="card-footer bg-white px-0 d-flex justify-content-between">
+                        <div>
+                          <i class="me-2 fa-regular fa-clock text-danger"></i>
+                          <span class="fw-light">30m</span>
+                        </div>
+                        <div>
+                          <i
+                            class="me-2 fa-regular fa-calendar-days text-orange"></i>
+                          <span class="fw-light">Winner 1996 </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card border-0">
+                    <img
+                      src="./images/Detective-Conan-EP-400x243.jpeg"
+                      class="card-img-top"
+                      alt="..." />
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between mb-2">
+                        <span
+                          class="badge bg-danger bg-opacity-10 text-danger fw-light"
+                          >Now</span
+                        >
+                        <i class="fa-solid fa-heart text-danger"></i>
+                      </div>
+                      <h5 class="card-title">
+                        <a href="#" class="text-decoration-none text-black"
+                          >Detective Conan S1 EP1
+                        </a>
+                      </h5>
+                      <p class="card-text">
+                        The son of a world famous mystery writer, Shinichi Kudo,
+                        has achieved his own notoriety by assisting the local
+                        police as a student detective. He has always been able
+                        to solve the most difficult of criminal cases using his
+                        wits and power of reason.
+                      </p>
+                      <div
+                        class="card-footer bg-white px-0 d-flex justify-content-between">
+                        <div>
+                          <i class="me-2 fa-regular fa-clock text-danger"></i>
+                          <span class="fw-light">30m</span>
+                        </div>
+                        <div>
+                          <i
+                            class="me-2 fa-regular fa-calendar-days text-orange"></i>
+                          <span class="fw-light">Winner 1996 </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="manga"
+              role="tabpanel"
+              aria-labelledby="manga-tab"
+              tabindex="0">
+              <div class="row gy-4">
+                <div class="col-lg-3">
+                  <div class="card border-0">
+                    <img src="./images/v1.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between mb-2">
+                        <span
+                          class="badge bg-success bg-opacity-10 text-success fw-light"
+                          >Completed</span
+                        >
+                        <i class="fa-solid fa-heart text-danger"></i>
+                      </div>
+                      <h5 class="card-title">
+                        <a href="#" class="text-decoration-none text-black"
+                          >Detective Conan Volume 1
+                        </a>
+                      </h5>
+                      <p class="card-text">
+                        The son of a world famous mystery writer, Shinichi Kudo,
+                        has achieved his own notoriety by assisting the local
+                        police as a student detective. He has always been able
+                        to solve the most difficult of criminal cases using his
+                        wits and power of reason.
+                      </p>
+                      <div
+                        class="card-footer bg-white px-0 d-flex justify-content-between">
+                        <div>
+                          <i class="me-2 fa-regular fa-clock text-danger"></i>
+                          <span class="fw-light">1hr 30m</span>
+                        </div>
+                        <div>
+                          <i
+                            class="me-2 fa-regular fa-calendar-days text-orange"></i>
+                          <span class="fw-light">Winner 2023</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card border-0">
+                    <img
+                      src="./images/v2.webp"
+                      class="card-img-top"
+                      alt="..." />
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between mb-2">
+                        <span
+                          class="badge bg-danger bg-opacity-10 text-danger fw-light"
+                          >Now</span
+                        >
+                        <i class="fa-regular fa-heart text-danger"></i>
+                      </div>
+                      <h5 class="card-title">
+                        <a href="#" class="text-decoration-none text-black"
+                          >Detective Conan Volume 2
+                        </a>
+                      </h5>
+                      <p class="card-text">
+                        The son of a world famous mystery writer, Shinichi Kudo,
+                        has achieved his own notoriety by assisting the local
+                        police as a student detective. He has always been able
+                        to solve the most difficult of criminal cases using his
+                        wits and power of reason.
+                      </p>
+                      <div
+                        class="card-footer bg-white px-0 d-flex justify-content-between">
+                        <div>
+                          <i class="me-2 fa-regular fa-clock text-danger"></i>
+                          <span class="fw-light">1hr 30m</span>
+                        </div>
+                        <div>
+                          <i
+                            class="me-2 fa-regular fa-calendar-days text-orange"></i>
+                          <span class="fw-light">Winner 2023</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card border-0">
+                    <img src="./images/v3.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between mb-2">
+                        <span
+                          class="badge bg-info bg-opacity-10 text-info fw-light"
+                          >Waiting</span
+                        >
+                        <i class="fa-solid fa-heart text-danger"></i>
+                      </div>
+                      <h5 class="card-title">
+                        <a href="#" class="text-decoration-none text-black"
+                          >Detective Conan Volume 3
+                        </a>
+                      </h5>
+                      <p class="card-text">
+                        The son of a world famous mystery writer, Shinichi Kudo,
+                        has achieved his own notoriety by assisting the local
+                        police as a student detective. He has always been able
+                        to solve the most difficult of criminal cases using his
+                        wits and power of reason.
+                      </p>
+                      <div
+                        class="card-footer bg-white px-0 d-flex justify-content-between">
+                        <div>
+                          <i class="me-2 fa-regular fa-clock text-danger"></i>
+                          <span class="fw-light">1hr 30m</span>
+                        </div>
+                        <div>
+                          <i
+                            class="me-2 fa-regular fa-calendar-days text-orange"></i>
+                          <span class="fw-light">Winner 2023</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card border-0">
+                    <img src="./images/v1.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between mb-2">
+                        <span
+                          class="badge bg-info bg-opacity-10 text-info fw-light"
+                          >Waiting</span
+                        >
+                        <i class="fa-solid fa-heart text-danger"></i>
+                      </div>
+                      <h5 class="card-title">
+                        <a href="#" class="text-decoration-none text-black"
+                          >Detective Conan Volume 1
+                        </a>
+                      </h5>
+                      <p class="card-text">
+                        The son of a world famous mystery writer, Shinichi Kudo,
+                        has achieved his own notoriety by assisting the local
+                        police as a student detective. He has always been able
+                        to solve the most difficult of criminal cases using his
+                        wits and power of reason.
+                      </p>
+                      <div
+                        class="card-footer bg-white px-0 d-flex justify-content-between">
+                        <div>
+                          <i class="me-2 fa-regular fa-clock text-danger"></i>
+                          <span class="fw-light">1hr 30m</span>
+                        </div>
+                        <div>
+                          <i
+                            class="me-2 fa-regular fa-calendar-days text-orange"></i>
+                          <span class="fw-light">Winner 2023</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card border-0">
+                    <img
+                      src="./images/v2.webp"
+                      class="card-img-top"
+                      alt="..." />
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between mb-2">
+                        <span
+                          class="badge bg-success bg-opacity-10 text-success fw-light"
+                          >Completed</span
+                        >
+                        <i class="fa-regular fa-heart text-danger"></i>
+                      </div>
+                      <h5 class="card-title">
+                        <a href="#" class="text-decoration-none text-black"
+                          >Detective Conan Volume 2
+                        </a>
+                      </h5>
+                      <p class="card-text">
+                        The son of a world famous mystery writer, Shinichi Kudo,
+                        has achieved his own notoriety by assisting the local
+                        police as a student detective. He has always been able
+                        to solve the most difficult of criminal cases using his
+                        wits and power of reason.
+                      </p>
+                      <div
+                        class="card-footer bg-white px-0 d-flex justify-content-between">
+                        <div>
+                          <i class="me-2 fa-regular fa-clock text-danger"></i>
+                          <span class="fw-light">1hr 30m</span>
+                        </div>
+                        <div>
+                          <i
+                            class="me-2 fa-regular fa-calendar-days text-orange"></i>
+                          <span class="fw-light">Winner 2023</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card border-0">
+                    <img src="./images/v3.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between mb-2">
+                        <span
+                          class="badge bg-success bg-opacity-10 text-success fw-light"
+                          >Completed</span
+                        >
+                        <i class="fa-solid fa-heart text-danger"></i>
+                      </div>
+                      <h5 class="card-title">
+                        <a href="#" class="text-decoration-none text-black"
+                          >Detective Conan Volume 3
+                        </a>
+                      </h5>
+                      <p class="card-text">
+                        The son of a world famous mystery writer, Shinichi Kudo,
+                        has achieved his own notoriety by assisting the local
+                        police as a student detective. He has always been able
+                        to solve the most difficult of criminal cases using his
+                        wits and power of reason.
+                      </p>
+                      <div
+                        class="card-footer bg-white px-0 d-flex justify-content-between">
+                        <div>
+                          <i class="me-2 fa-regular fa-clock text-danger"></i>
+                          <span class="fw-light">1hr 30m</span>
+                        </div>
+                        <div>
+                          <i
+                            class="me-2 fa-regular fa-calendar-days text-orange"></i>
+                          <span class="fw-light">Winner 2023</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="news" class="py-5">
+        <div class="container">
+          <header class="text-center w-75 mx-auto">
+            <h2 class="mb-0">News</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum eget est sit amet sapien congue tristique. Integer
+              mollis auctor ultrices. Praesent vitae dapibus elit. Sed sit amet
+              tellus magna.
+            </p>
+          </header>
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="true">
+            <div class="carousel-inner p-5">
+              <div class="carousel-item active">
+                <div class="content p-5 border border-5 text-center">
+                  <img
+                    src="images/ran.jpeg"
+                    class="custome-img position-absolute top-0 translate-middle rounded-circle"
+                    alt="" />
+
+                  <h3 class="position-relative pb-3">Kara Dennison</h3>
+                  <span class="text-danger">Contributing Writer</span>
+                  <p>
+                    In the words of Detective Conan, "one truth prevails." But
+                    how you get to that truth is another matter entirely.
+                    Fortunately for those of us who aren't as brilliant as the
+                    pint-sized sleuth, there's a new book teaching us how to
+                    approach problems his way.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="content p-5 border border-5 text-center">
+                  <img
+                    src="images/akai.jpeg"
+                    class="custome-img position-absolute top-0 translate-middle rounded-circle"
+                    alt="" />
+
+                  <h3 class="position-relative pb-3">Paul Chapman</h3>
+                  <span class="text-danger">Contributing Writer</span>
+                  <p>
+                    Crunchyroll previously reported on a teaser video that
+                    hinted that the 20th installment in the Detective Conan
+                    series of anime theatrical films (known as Case Closed in
+                    North America) would involve a confrontation between series
+                    protagonist Conan Edogawa and the mysterious Black
+                    Organization.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="content p-5 border border-5 text-center">
+                  <img
+                    src="images/heiji.jpeg"
+                    class="custome-img position-absolute top-0 translate-middle rounded-circle"
+                    alt="" />
+                  <h3 class="position-relative pb-3">Scott Green</h3>
+                  <span class="text-danger">Contributing Writer</span>
+                  <p>
+                    In time for the April, 2012 release of Detective Conan's
+                    16th movie and soccer venture, The Eleventh Striker, Sega is
+                    preparing a 180mm Conan Edogawa figure for next spring. Get
+                    up close and personal with some preview shots below.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-indicators position-static">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1">
+                <img
+                  src="images/ran.jpeg"
+                  class="w-100 rounded-circle"
+                  alt="" />
+              </button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2">
+                <img
+                  src="images/akai.jpeg"
+                  class="w-100 rounded-circle"
+                  alt="" />
+              </button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3">
+                <img
+                  src="images/heiji.jpeg"
+                  class="w-100 rounded-circle"
+                  alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="chars">
+        <div class="container">
+          <h2>View Our Characters</h2>
+          <div class="row">
+            <div class="col-lg-3 col-sm-6">
+              <figure
+                class="char"
+                data-bs-toggle="modal"
+                data-bs-target="#detectiveConan">
+                <img class="img-fluid" src="./images/char-c.jpeg" alt="" />
+                <figcaption>
+                  <h3>Conan</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                    delectus ipsa sunt veritatis cum unde. Sunt, repellendus
+                    unde molestias, tempora reiciendis eligendi odit aliquid
+                    assumenda libero debitis totam nobis vel!
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <figure class="char">
+                <img class="img-fluid" src="./images/char-r.jpeg" alt="" />
+                <figcaption>
+                  <h3>Ran</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                    delectus ipsa sunt veritatis cum unde. Sunt, repellendus
+                    unde molestias, tempora reiciendis eligendi odit aliquid
+                    assumenda libero debitis totam nobis vel!
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <figure class="char">
+                <img class="img-fluid" src="./images/char-h.jpeg" alt="" />
+                <figcaption>
+                  <h3>Haibara</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                    delectus ipsa sunt veritatis cum unde. Sunt, repellendus
+                    unde molestias, tempora reiciendis eligendi odit aliquid
+                    assumenda libero debitis totam nobis vel!
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <figure class="char">
+                <img class="img-fluid" src="./images/char-z.jpeg" alt="" />
+                <figcaption>
+                  <h3>Amuro</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                    delectus ipsa sunt veritatis cum unde. Sunt, repellendus
+                    unde molestias, tempora reiciendis eligendi odit aliquid
+                    assumenda libero debitis totam nobis vel!
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="pt-5 bg-light">
+      <div class="container">
+        <!-- Row START -->
+        <div class="row g-4">
+          <!-- Widget 1 START -->
+          <div class="col-lg-3">
+            <!-- logo -->
+            <a class="me-0" href="index.html">
+              <img
+                class="light-mode-item h-40px"
+                src="./images/logo.jpeg"
+                alt="logo"
+                style="width: 5rem" />
+            </a>
+            <p class="my-3">
+              Detective Conan theme, built specifically for the centers which is
+              dedicated to watching the best anime ever.
+            </p>
+            <!-- Social media icon -->
+            <ul class="list-inline mb-0 mt-3">
+              <li class="list-inline-item">
+                <a
+                  class="btn btn-white btn-sm shadow px-2 text-facebook"
+                  href="#"
+                  ><i class="fab fa-fw fa-facebook-f"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  class="btn btn-white btn-sm shadow px-2 text-instagram"
+                  href="#"
+                  ><i class="fab fa-fw fa-instagram"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  class="btn btn-white btn-sm shadow px-2 text-twitter"
+                  href="#"
+                  ><i class="fab fa-fw fa-twitter"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  class="btn btn-white btn-sm shadow px-2 text-linkedin"
+                  href="#"
+                  ><i class="fab fa-fw fa-linkedin-in"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <!-- Widget 1 END -->
+
+          <!-- Widget 2 START -->
+          <div class="col-lg-6">
+            <div class="row g-4">
+              <!-- Link block -->
+              <div class="col-6 col-md-4">
+                <h5 class="mb-2 mb-md-4">Company</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">News and Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Library</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Career</a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Link block -->
+              <div class="col-6 col-md-4">
+                <h5 class="mb-2 mb-md-4">Community</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Documentation</a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="#">Faq</a></li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Forum</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sitemap</a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Link block -->
+              <div class="col-6 col-md-4">
+                <h5 class="mb-2 mb-md-4">Teaching</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Become a teacher</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">How to guide</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Terms &amp; Conditions</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Widget 2 END -->
+
+          <!-- Widget 3 START -->
+          <div class="col-lg-3">
+            <h5 class="mb-2 mb-md-4">Contact</h5>
+            <!-- Time -->
+            <p class="mb-2">
+              Toll free:<span class="h6 fw-light ms-2">+1234 568 963</span>
+              <span class="d-block small">(9:AM to 8:PM IST)</span>
+            </p>
+
+            <p class="mb-0">
+              Email:<span class="h6 fw-light ms-2">example@gmail.com</span>
+            </p>
+
+            <div class="row g-2 mt-2">
+              <!-- Google play store button -->
+              <div class="col-6 col-sm-4 col-md-3 col-lg-6">
+                <a href="#">
+                  <img
+                    src="https://eduport.webestica.com/assets/images/client/google-play.svg"
+                    alt="" />
+                </a>
+              </div>
+              <!-- App store button -->
+              <div class="col-6 col-sm-4 col-md-3 col-lg-6">
+                <a href="#">
+                  <img
+                    src="https://eduport.webestica.com/assets/images/client/app-store.svg"
+                    alt="app-store" />
+                </a>
+              </div>
+            </div>
+            <!-- Row END -->
+          </div>
+          <!-- Widget 3 END -->
+        </div>
+        <!-- Row END -->
+
+        <!-- Divider -->
+        <hr class="mt-4 mb-0" />
+
+        <!-- Bottom footer -->
+        <div class="py-3">
+          <div class="container px-0">
+            <div
+              class="d-lg-flex justify-content-between align-items-center py-3 text-center text-md-left">
+              <!-- copyright text -->
+              <div class="text-body text-primary-hover">
+                Copyrights ©2023 Eduport. Build by
+                <a
+                  href="https://www.webestica.com/"
+                  target="_blank"
+                  class="text-body"
+                  >Sahar Kassem</a
+                >
+              </div>
+              <!-- copyright links-->
+              <div class="justify-content-center mt-3 mt-lg-0">
+                <ul class="nav list-inline justify-content-center mb-0">
+                  <li class="list-inline-item">
+                    <!-- Language selector -->
+                    <div class="dropup mt-0 text-center text-sm-end">
+                      <a
+                        class="dropdown-toggle nav-link"
+                        href="#"
+                        role="button"
+                        id="languageSwitcher"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fas fa-globe me-2"></i>Language
+                      </a>
+                      <ul
+                        class="dropdown-menu min-w-auto"
+                        aria-labelledby="languageSwitcher">
+                        <li>
+                          <a class="dropdown-item me-4" href="#"
+                            ><img
+                              class="fa-fw me-2"
+                              src="assets/images/flags/uk.svg"
+                              alt="" />English</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item me-4" href="#"
+                            ><img
+                              class="fa-fw me-2"
+                              src="assets/images/flags/gr.svg"
+                              alt="" />German
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item me-4" href="#"
+                            ><img
+                              class="fa-fw me-2"
+                              src="assets/images/flags/sp.svg"
+                              alt="" />French</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="list-inline-item">
+                    <a class="nav-link" href="#">Terms of use</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a class="nav-link pe-0" href="#">Privacy policy</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Modal Body -->
+    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+    <div
+      class="modal fade"
+      id="detectiveConan"
+      tabindex="-1"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      role="dialog"
+      aria-labelledby="modalTitleId"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid" src="./images/char-c.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <i
+      class="fa-solid fa-3x text-danger fa-arrow-alt-circle-up position-fixed end-0 bottom-0 me-4 mb-4"></i>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
