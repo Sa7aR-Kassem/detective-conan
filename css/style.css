@@ -94,6 +94,12 @@ h6,
   width: 4.5rem;
 }
 
+#header {
+  img {
+    max-width: 96%;
+  }
+}
+
 .card {
   box-shadow: var(--main-shadow);
   img {
